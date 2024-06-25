@@ -4,9 +4,10 @@ A random walk of molecules to circumvent shrinkage step in initialization of sim
 Working so far:
 - 2D random walk for single and multiple molecules (*with* bond crossing if diagonal moves are allowed).
 - Prevention of multiple molecules occupying the same site.
+- Successfully made a version of this that utilizes classes.
+- Rollback instead of solely restarting is working.
+- Output of positions of each atom of a molecule to a file.
 
 To do:
-- Try to work on making a version of this that utilizes classes.
-- Work on ensuring rollback is allowed instead of solely restarting.
 - Prevent bonds from crossing.
-- Get output of positions.
+- Convert to 3D.
