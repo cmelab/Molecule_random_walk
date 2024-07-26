@@ -6,8 +6,8 @@ Working so far:
 - Prevention of multiple molecules occupying the same site.
 - Successfully made a version of this that utilizes classes.
 - Rollback instead of solely restarting is working.
-- Output of positions of each atom of a molecule to a file.
+- Output of positions of each atom of a molecule to a csv file.
+- 3D version working (*with* bond crossing at the moment).
 
 To do:
 - Prevent bonds from crossing.
-- Convert to 3D.
