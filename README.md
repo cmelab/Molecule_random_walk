@@ -1,5 +1,5 @@
 # Molecule_random_walk
-A random walk of molecules to circumvent shrinkage step in initialization of simulations. Creates a box of specified density according to the number and length of molecules. Molecules are assembled through a Monte-Carlo simulation which rolls back if issues are encountered. Output is an array of positions of atoms.
+A random walk of molecules to circumvent shrinkage step in initialization of simulations. Creates a box of specified density according to the number and length of molecules. Molecules are assembled through a Monte-Carlo simulation which rolls back if issues are encountered. Output is an array of positions of atoms. An environment with freud is required for the nematic order paramter calculations. 
 
 Working so far:
 - 2D random walk for single and multiple molecules (*with* bond crossing if diagonal moves are allowed).
@@ -11,3 +11,4 @@ Working so far:
 
 To do:
 - Prevent bonds from crossing.
+- Create a version with nematic order parameter calculations.
