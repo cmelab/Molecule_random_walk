@@ -8,8 +8,7 @@ Working so far:
 - Rollback instead of solely restarting is working.
 - Output of positions of each atom of a molecule to a csv file.
 - 3D version working (*with* bond crossing at the moment).
-- Nematic order parameter calculations working *per* molecule.
+- Nematic order parameter calculations working for the entire system.
 
 To do:
 - Prevent bonds from crossing.
-- Create a version with nematic order parameter calculations for the entire system.
